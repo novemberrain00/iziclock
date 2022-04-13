@@ -8,7 +8,7 @@ let hours = date.getHours(),
     minutes = date.getMinutes(),
     seconds = date.getSeconds();
 
-let initialHourRotation = -90 + 6 * hours;
+let initialHourRotation = -90 + 30 * hours;
 hourArrow.style.transform = `rotate(${initialHourRotation}deg)`;
 
 let initialMinuteRotation = -90 + 6 * minutes;
